@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Destinations</title>
+</head>
+<body>
+    {% if user.is_authenticated %}
+    welcome
+    {% else %}
+    please <a href="accounts/login">login </a> &nbsp;first to know more!!
+    {% endif %}
+</body>
+</html>
